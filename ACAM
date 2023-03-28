@@ -1,0 +1,93 @@
+Site da Associação Canábica
+
+
+Vinícius Nascimento Couto
+Crie em html, um site de uma associação canabica com nome ACAM - ASSOSSIACAO CANABICA DA MANTIQUEIRA. ESTE SITE DEVE CONTER IMAGENS QUE TRANSMITAM A SENSAÇÃO DE CONTATO COM A SERRA DA MANTIQUEIRA, E FOCAR EM UM PÚBLICO JOVEM QUE CONSOME MACONHA.
+
+<!DOCTYPE html> 
+<html> <head> <title>ACAM - Associação Canábica da Mantiqueira</title> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <style> body { background-image: url("https://www.serradamantiqueira.com.br/wp-content/uploads/2018/03/serra-da-mantiqueira-superior-frio -05.jpg"); tamanho do plano de fundo: capa; família da fonte: Arial, sem serifa; cor: #fff; }
+CSS
+
+Copiar código
+	header {
+		background-color: rgba(0, 0, 0, 0.6);
+		padding: 20px;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 48px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	nav {
+		background-color: rgba(0, 0, 0, 0.6);
+		padding: 10px;
+		text-align: center;
+	}
+
+	nav a {
+		color: #fff;
+		font-size: 20px;
+		text-decoration: none;
+		padding: 10px;
+	}
+
+	nav a:hover {
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	section {
+		background-color: rgba(255, 255, 255, 0.8);
+		padding: 20px;
+		margin: 20px;
+		text-align: justify;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+		margin: 20px 0;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+
+	h2 {
+		font-size: 36px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	footer {
+		background-color: rgba(0, 0, 0, 0.6);
+		padding: 20px;
+		text-align: center;
+	}
+
+	footer p {
+		margin: 0;
+		font-size: 16px;
+	}
+</style>
+</head> <body> <header> <h1>ACAM - Associação Canábica da Mantiqueira</h1> </header>
+php
+
+Copiar código
+<nav>
+	<a href="#">Sobre nós</a>
+	<a href="#">Produtos</a>
+	<a href="#">Contato</a>
+</nav>
+
+<section>
+	<h2>Bem-vindo à ACAM</h2>
+	<p>Nós somos a Associação Canábica da Mantiqueira, uma organização sem fins lucrativos que tem como objetivo promover a cultura e o consumo responsável da maconha na região da Serra da Mantiqueira.</p>
+
+	<img src="https://www.serradamantiqueira.com.br/wp-content/uploads/2022/01/Serra_da_Mantiqueira_3.jpg" alt="Serra da Mantiqueira">
+
+	<p>Com um ambiente natural de tirar o fôlego, a Serra da Mantiqueira é o lugar perfeito para desfrutar da natureza e relaxar com uma boa erva. Nossa associação é formada por jovens que compartilham da paixão pela maconha
